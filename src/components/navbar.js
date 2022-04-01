@@ -6,10 +6,11 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const navigation = [
-  { name: 'Dashboard', number:'00. ', href: '#', current: true },
-  { name: 'Team', number:'01. ', href: '#', current: false },
-  { name: 'Work', number:'02. ', href: '#', current: false },
-  { name: 'Contact', number:'03. ', href: '#', current: false },
+  { name: 'Home', href: '#', current: true },
+  { name: 'Projects', href: '#', current: false },
+  { name: 'Skills', href: '#', current: false },
+  { name: 'About', href: '#', current: false },
+  { name: 'Contact', href: '#', current: false },
 ]
 
 function classNames(...classes) {
@@ -37,44 +38,70 @@ export default function Example() {
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
                   <img
-                    className="block lg:hidden h-20 w-20"
+                    className=" Logo block lg:hidden h-8 w-auto"
                     src={Logo}
                     alt="Workflow"
                   />
                   <img
-                    className="hidden lg:block h-20 w-22"
+                    className="Logo hidden lg:block h-8 w-auto"
                     src={Logo}
-                    alt="Papa"
+                    alt="Workflow"
                   />
                 </div>
                 <div className="hidden sm:block sm:ml-6">
-                  <div className="flex space-x-4">
+                  <div className="flex space-x-4 nav">
                     {navigation.map((item) => (
                       <a
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.number ? 'text-green' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                          item.current ? 'bg-gray-700 text-white nav' : 'text-gray-300 hover:bg-gray-700 hover:text-white nav1',
                           'px-3 py-2 rounded-md text-sm font-medium'
                         )}
                         aria-current={item.current ? 'page' : undefined}
                       >
-                        {item.number + item.name}
+                        {item.name}
                       </a>
+                      
                     ))}
+                      <button
+                  type="button"
+                  className=" button bg-transparent  text-laser font-semibold hover:text-white py-1 px-7  hover:border-transparent rounded"
+                >
+                 Resume
+                </button>
                   </div>
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                <button
-                  type="button"
-                  className=" bg-transparent hover:bg-teal-300 text-teal-300 font-semibold hover:text-white py-1.5 px-4 border border-teal-300 hover:border-transparent rounded"
-                >
-                 Resume
-                </button>
+        
 
-       
-           
+                {/* Profile dropdown */}
+                <Menu as="div" className="ml-3 relative">
+                  <div>
+                    <Menu.Button className="bg-gray-800 flex text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+                      <span className="sr-only">Open user menu</span>
+                     
+                    </Menu.Button>
+                  </div>
+                  <Transition
+                    as={Fragment}
+                    enter="transition ease-out duration-100"
+                    enterFrom="transform opacity-0 scale-95"
+                    enterTo="transform opacity-100 scale-100"
+                    leave="transition ease-in duration-75"
+                    leaveFrom="transform opacity-100 scale-100"
+                    leaveTo="transform opacity-0 scale-95"
+                  >
+                    <Menu.Items className="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
+                    
+                
+                      <Menu.Item>
+                     
+                      </Menu.Item>
+                    </Menu.Items>
+                  </Transition>
+                </Menu>
               </div>
             </div>
           </div>
@@ -95,8 +122,11 @@ export default function Example() {
                   {item.name}
                 </Disclosure.Button>
               ))}
+              
             </div>
+            
           </Disclosure.Panel>
+          
         </>
       )}
     </Disclosure>
