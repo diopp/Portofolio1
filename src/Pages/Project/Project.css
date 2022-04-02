@@ -29,8 +29,26 @@ img{
 h1 {
     margin: 0px 0px 10px;
     font-weight: 600;
-    color: var(--lightest-slate);
+    color: white;
     line-height: 1.1;
     
 }
 
+body{
+    background-color: #0a0909;
+}
+
+.project1{
+    color:#c1ab65;
+    width: 30%;
+    border: 1px solid #c1ab65;
+    
+}
+
+.project{
+    color:#c1ab65;
+    width: 35%;
+    border: 1px solid #c1ab65;
+    margin-left: 10px;
+    
+}

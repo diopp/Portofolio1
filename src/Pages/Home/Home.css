@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Playfair+Display:wght@600&family=Roboto+Condensed:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
 
 
 @media (min-width: 768px)
@@ -13,10 +12,21 @@
 
 .name{
     color:#c1ab65 ;
-    font-family: 'Major Mono Display', monospace;
-    font-family: 'Playfair Display', serif;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+
+
 }
+.name2{
+    color:#EEEEEE ;
+    font-size: clamp(40px, 8vw, 80px);
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    line-height: 1.1;
+
+}
+
+
 
 .name::after{
     border-bottom:1px solid #CCC;
@@ -26,7 +36,11 @@
 }
 
 .h1{
-    color:#F6F2E8
+    color:#F6F2E8;
+    font-family: 'Roboto Mono', monospace;
+    left: auto
+
+
     
 
 
@@ -34,3 +48,59 @@
     ;
 }
 
+.work{
+    color:#c1ab65;
+    width: 185px;
+    border: 1px solid #c1ab65;
+    
+}
+
+
+
+#name{
+    color:#c1ab65 ;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Major Mono Display', monospace;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+.name1{
+    color:#E4DBBC;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Major Mono Display', monospace;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.p{
+    color:#E4DBBC
+}
+
+.typewriter h1 {
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .1em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.6s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #c1ab65 }
+  }

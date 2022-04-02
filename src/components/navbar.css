@@ -1,11 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Playfair+Display:wght@600&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
 
 .Logo{
     width: 120px;
     height: 100px;
     margin-bottom: -68px;
     margin-top: -50%;
+
   
+}
+
+.Logo1{
+
+    width: 180px;
+    height: 100px;
+    margin-bottom: -90px;
+    margin-top: -50%;
+    left: 35%;
+ 
+}
+
+
+
+.pr-8 {
+    padding-right: 1.5rem;
 }
 
 @media (min-width: 640px)
@@ -14,22 +32,37 @@
     
 }
 
+.mr-8 {
+    margin-right: 0rem;
+}
+
 
 
 .navbar{
     background-color: #0a0909;
 }
 
+.pr-8 {
+    padding-right: 2rem;
 }
 
-.button{
+}
+
+.resume{
+    color:#c1ab65;
+    width: 100%;
     border: 1px solid #c1ab65;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
 }
 
-.button:hover{
+.resume:hover{
     background-color: #c1ab65;
 }
 
+a{
+    color: #c1ab65;
+}
 
 
 .py-2 {
@@ -39,9 +72,7 @@
 
 .nav {
     color: #c1ab65;
-    font-family: 'Major Mono Display', monospace;
-    font-family: 'Playfair Display', serif;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     font-size: 16px;
     font-style: normal;
     
@@ -50,11 +81,13 @@
 }
 
 .nav1 {
-    color: #f5f5f5;
-    font-family: 'Major Mono Display', monospace;
-    font-family: 'Playfair Display', serif;
-    font-family: 'Roboto Condensed', sans-serif;
+    color: #F6F2E8;
+    font-family: 'Roboto Mono', monospace;
     font-size: 16px;
     
 
+}
+
+.nav1:hover {
+    color: #c1ab65;
 }

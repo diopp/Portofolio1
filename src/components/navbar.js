@@ -6,11 +6,10 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const navigation = [
-  { name: 'Home', href: '#', current: true },
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Skills', href: '#', current: false },
-  { name: 'About', href: '#', current: false },
-  { name: 'Contact', href: '#', current: false },
+  { name: 'Home', number:"", href: '#', current: true },
+  { name: 'Projects', number:"01. ", href: '#', current: false },
+  { name: 'About', number:"02. ", href: '#', current: false },
+  { name: 'Contact', number:"03.", href: '#', current: false },
 ]
 
 function classNames(...classes) {
@@ -36,53 +35,69 @@ export default function Example() {
                 </Disclosure.Button>
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-                <div className="flex-shrink-0 flex items-center">
+                <div className="flex-shrink-0 flex items-center ">
                   <img
-                    className=" Logo block lg:hidden h-8 w-auto"
+                    className=" Logo1 block lg:hidden h-10 w-auto pr-8"
                     src={Logo}
                     alt="Workflow"
                   />
                   <img
-                    className="Logo hidden lg:block h-8 w-auto"
+                    className=" Logo hidden lg:block h-8 w-auto"
                     src={Logo}
                     alt="Workflow"
                   />
                 </div>
+
+                
                 <div className="hidden sm:block sm:ml-6">
+                  
                   <div className="flex space-x-4 nav">
+
+
+
+                    
                     {navigation.map((item) => (
                       <a
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current ? 'bg-gray-700 text-white nav' : 'text-gray-300 hover:bg-gray-700 hover:text-white nav1',
-                          'px-3 py-2 rounded-md text-sm font-medium'
+                          item.current ? '  nav' : ' nav1',
+                          'px-3 py-2 rounded-md text-sm '
+                          
                         )}
                         aria-current={item.current ? 'page' : undefined}
                       >
-                        {item.name}
+                        <a className='text-laser'>{item.number}</a>
+                        
+                        { item.name}
                       </a>
+
+
+
                       
                     ))}
-                      <button
-                  type="button"
-                  className=" button bg-transparent  text-laser font-semibold hover:text-white py-1 px-7  hover:border-transparent rounded"
-                >
-                 Resume
-                </button>
+                 
                   </div>
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
         
-
+              <button
+                  type="button"
+                  className=" mr-8 resume bg-transparent  text-laser font-semibold hover:text-white py-1.5 px-7  hover:border-transparent rounded"
+                >
+                 Resume
+                </button>
                 {/* Profile dropdown */}
-                <Menu as="div" className="ml-3 relative">
+                <Menu as="div" className=" relative">
                   <div>
                     <Menu.Button className="bg-gray-800 flex text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
                       <span className="sr-only">Open user menu</span>
                      
                     </Menu.Button>
+
+              
+
                   </div>
                   <Transition
                     as={Fragment}
@@ -93,14 +108,11 @@ export default function Example() {
                     leaveFrom="transform opacity-100 scale-100"
                     leaveTo="transform opacity-0 scale-95"
                   >
-                    <Menu.Items className="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
+
                     
-                
-                      <Menu.Item>
-                     
-                      </Menu.Item>
-                    </Menu.Items>
+             
                   </Transition>
+      
                 </Menu>
               </div>
             </div>
@@ -114,7 +126,7 @@ export default function Example() {
                   as="a"
                   href={item.href}
                   className={classNames(
-                    item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                    item.current ? 'text-center bg-gray-900 text-white' : ' text-center text-gray-300 hover:bg-gray-700  hover:text-white',
                     'block px-3 py-2 rounded-md text-base font-medium'
                   )}
                   aria-current={item.current ? 'page' : undefined}
@@ -122,12 +134,15 @@ export default function Example() {
                   {item.name}
                 </Disclosure.Button>
               ))}
+
+
               
             </div>
             
           </Disclosure.Panel>
           
         </>
+        
       )}
     </Disclosure>
   )
