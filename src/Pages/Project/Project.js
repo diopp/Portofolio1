@@ -1,6 +1,6 @@
 import "./Project.css";
 import Coffee from "./Coffee.png";
-import Bughut from "./Bughut.png";
+import bughut from "./bughut.png";
 import { AiFillBug, AiOutlineHtml5 } from "react-icons/ai";
 import { FiCoffee } from "react-icons/fi";
 import { SiCanva, SiTailwindcss, SiExpress, SiPython } from "react-icons/si";
@@ -140,7 +140,7 @@ export default function Project() {
             <img
               class=" project1 bughut object-cover object-center rounded scale-125"
               alt="hero"
-              src={Bughut}
+              src={bughut}
             />
           </div>
         </div>
@@ -382,7 +382,7 @@ export default function Project() {
             <img
               class=" project1 bughut object-cover object-center rounded scale-125"
               alt="hero"
-              src={Bughut}
+              src={bughut}
             />
           </div>
         </div>
