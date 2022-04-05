@@ -1,6 +1,6 @@
-import Bughut from "./Bughut.png";
 import "./Project.css";
 import Coffee from "./Coffee.png";
+import Bughut from "./Bughut.png";
 import { AiFillBug, AiOutlineHtml5 } from "react-icons/ai";
 import { FiCoffee } from "react-icons/fi";
 import { SiCanva, SiTailwindcss, SiExpress, SiPython } from "react-icons/si";
