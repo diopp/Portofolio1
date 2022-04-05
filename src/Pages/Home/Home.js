@@ -30,11 +30,11 @@ function Home() {
           </div>
           <div className="flex justify-center items-center">
             <div class="flex justify-center mb-9">
-              <a href="#!" class="mr-9 ">
+              <a href="https://www.linkedin.com/in/papa-diop1/" class="mr-9 ">
                 <BsLinkedin size={35} />
               </a>
 
-              <a href="#!" class="mr-9 ">
+              <a href="https://github.com/diopp" class="mr-9 ">
                 <AiFillGithub size={40} />
               </a>
             </div>

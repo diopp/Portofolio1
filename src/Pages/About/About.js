@@ -6,7 +6,7 @@ function About() {
     <div id="about">
       <section class="">
         <div class=" About  ">
-          <h2 class=" font-bold text-center about">
+          <h2 class=" text-center about pt-15">
             <span class="number">01. </span>
             About Me{" "}
           </h2>
@@ -14,19 +14,15 @@ function About() {
             <div class="w-full md:w-5/12 ml-auto mr-auto   pl-20">
               <div class="mb-16 ml-9"></div>
               <p class="text-slate-500 bio mt-5 ml-9  text-lg leading-relaxed">
-                Hello! My name is Papa and I enjoy solving problems. My passion
-                web development started back to Senegal, when I have my first
-                computer, I was fascinated by what they do. Click edit button to
-                change this text. 
-                
-                I have a BA in Computer Science from Manhattanville College, 
-a Certificate of Computer Software Engineering Immersive from General Assembly
-                
-                . Click edit button to change this text.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-              </p>
+              Hello World! I'm Papa Diop, a Software Engineer based out of New York.
+              I enjoy solving technical problems and creating a smart user interface.
+            
+              I have a BA in Computer Science from Manhattanville College and
+a Certificate of Computer Software Engineering Immersive from General Assembly.
+     
 
+
+In my free time you will find me going for a run or playing monoploy. </p>
               <button
                 type="button"
                 className="contact mt-5 ml-9 bg-transparent    hover:text-white py-1.5 px-5  rounded"

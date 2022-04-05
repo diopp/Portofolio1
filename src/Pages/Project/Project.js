@@ -1,6 +1,7 @@
 import "./Project.css";
 import Coffee from "./Coffee.png";
 import bughut from "./bughut.png";
+import shoppa from './shoppa.png';
 import { AiFillBug, AiOutlineHtml5 } from "react-icons/ai";
 import { FiCoffee } from "react-icons/fi";
 import { SiCanva, SiTailwindcss, SiExpress, SiPython } from "react-icons/si";
@@ -119,18 +120,20 @@ export default function Project() {
                     </ul>
                   </p>
                   <div class="ml-2">
-                    <button
+                    <a
+                    href='https://bughut.herokuapp.com/'
                       type="button"
                       className=" demo ml-3 px-2   hover:text-white py-3 px-6   rounded"
                     >
                       View Demo
-                    </button>
-                    <button
+                    </a>
+                    <a
+                    href="https://github.com/diopp/Bughut"
                       type="button"
                       className=" demo1   py-3 px-7 rounded"
                     >
                       View Github Repo
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -169,8 +172,8 @@ export default function Project() {
                     ordering website for local coffee websites. Easily
                     customizeable by the client to fit any future needs as the
                     buisness grows. A group programming project with
-                    <a>Elvis Espinoza</a>,<a>Long Lu</a> and
-                    <a>Trinity Fore</a>.
+                    <a href="https://github.com/elvisEspinozaN"> Elvis Espinoza</a>,&nbsp;<a href="https://github.com/longplu">Long Lu</a> and
+                    &nbsp;<a href="https://github.com/Trinityfore">Trinity Fore</a>.
                   </p>
                   <p class="text-indigo-200 text-base pb-6 ml-4">
                     <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
@@ -259,18 +262,21 @@ export default function Project() {
                     </ul>
                   </p>
                   <div class="ml-2">
-                    <button
+                    <a
                       type="button"
                       className=" demo ml-3 px-2   hover:text-white py-3 px-6   rounded"
+                      href="https://phoenix-roasters.herokuapp.com/"
                     >
                       View Demo
-                    </button>
-                    <button
+                    </a>
+                    <a
+                    href="https://github.com/longplu/phoenix_roasters"
+                   
                       type="button"
                       className=" demo1   py-3 px-7 rounded"
                     >
                       View Github Repo
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -290,8 +296,9 @@ export default function Project() {
                     Fruit Shop
                   </h1>
                   <p class="text-slate-500  text-base pb-6 ml-5">
-                    A CRUD Node.js responsive web app for teams to track bugs in
-                    their code
+                  An eCommerce app with shopping cart built with MERN stack
+
+
                   </p>
                   <p class="text-indigo-200 text-base pb-6 ml-4">
                     <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
@@ -361,18 +368,19 @@ export default function Project() {
                     </ul>
                   </p>
                   <div class="ml-2">
-                    <button
+                    <a
                       type="button"
                       className=" demo ml-3 px-2   hover:text-white py-3 px-6   rounded"
                     >
                       View Demo
-                    </button>
-                    <button
+                    </a>
+                    <a
+                      href="https://github.com/diopp/fruitshop1"
                       type="button"
                       className=" demo1   py-3 px-7 rounded"
                     >
                       View Github Repo
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -380,9 +388,9 @@ export default function Project() {
           </div>
           <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pr-1 flex flex-col md:items-start md:text-right mb-16 md:mb-0 items-center">
             <img
-              class=" project1 bughut object-cover object-center rounded scale-125"
+              class=" project1 bughut object-cover object-center rounded scale-150"
               alt="hero"
-              src={bughut}
+              src={shoppa}
             />
           </div>
         </div>
