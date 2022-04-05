@@ -7,15 +7,26 @@
 }
 
 .home{
-    background-color: #0a0909;
+    background-color: #f8f8f8;
 }
 
-.name{
-    color:#c1ab65 ;
-    font-size: 18px;
-    font-family: 'Roboto Mono', monospace;
 
 
+h1{
+    margin: 0px 0px 10px;
+    font-size: 30px;
+    font-weight: 900;
+    color:rgb(109, 131, 242);
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Major Mono Display', monospace;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a{
+    color: #6A98F0;
+    
 }
 .name2{
     color:#EEEEEE ;
@@ -29,14 +40,14 @@
 
 
 .name::after{
-    border-bottom:1px solid #CCC;
+    border-bottom:1px solid rgb(0, 0, 0);
     float:left;
     width:100%;
     padding-bottom:3px
 }
 
 .h1{
-    color:#F6F2E8;
+    color:#000000;
     font-family: 'Roboto Mono', monospace;
     left: auto
 
@@ -48,17 +59,24 @@
     ;
 }
 
+h5{
+    color: #112240;
+}
+
+
+
+
 .work{
-    color:#c1ab65;
+    color:#0a0a0a;
     width: 185px;
-    border: 1px solid #c1ab65;
+    border: 1px solid #000000;
     
 }
 
 
 
 #name{
-    color:#c1ab65 ;
+    color:#000000 ;
     font-family: 'Encode Sans Semi Condensed', sans-serif;
     font-family: 'Lora', serif;
     font-family: 'Major Mono Display', monospace;
@@ -76,31 +94,27 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-.p{
-    color:#E4DBBC
-}
 
-.typewriter h1 {
-    color: #fff;
-    font-family: monospace;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .1em solid orange; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
-    animation: 
-      typing 3.6s steps(30, end),
-      blink-caret .5s step-end infinite;
+
+
+  .name2{
+      color: #000000;
   }
+
+
+  .papa{
+    display: inline-block;
+    margin: 0 0.5rem;
   
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
+    animation:fadeInDown; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
   }
+
+  #software{
+    display: inline-block;
+    margin: 0 0.9rem;
   
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: #c1ab65 }
+    animation:pulse; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 4s; 
+
   }

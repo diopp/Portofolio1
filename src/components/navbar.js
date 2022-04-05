@@ -1,24 +1,23 @@
-import Logo from './Logo.svg';
-import './navbar.css'
-/* This example requires Tailwind CSS v2.0+ */
-import { Fragment } from 'react'
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
+import Logo from "./Logo.svg";
+import "./navbar.css";
+import { Fragment } from "react";
+import { Disclosure, Menu, Transition } from "@headlessui/react";
+import { MenuIcon, XIcon } from "@heroicons/react/outline";
+
 
 const navigation = [
-  { name: 'Home', number:"", href: '#', current: true },
-  { name: 'Projects', number:"01. ", href: '#', current: false },
-  { name: 'About', number:"02. ", href: '#', current: false },
-  { name: 'Contact', number:"03.", href: '#', current: false },
-]
+  { name: "About", number: "01. ", href: "/About", current: false },
+  { name: "Projects", number: "02. ", href: "/projects", current: false },
+  { name: "Contact", number: "03.", href: "/contact", current: false },
+];
 
 function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
+  return classes.filter(Boolean).join(" ");
 }
 
 export default function Example() {
   return (
-    <Disclosure as="nav" className="navbar">
+    <Disclosure as="nav" className="navbar shadow-xl">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
@@ -48,56 +47,40 @@ export default function Example() {
                   />
                 </div>
 
-                
                 <div className="hidden sm:block sm:ml-6">
-                  
                   <div className="flex space-x-4 nav">
-
-
-
-                    
                     {navigation.map((item) => (
                       <a
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current ? '  nav' : ' nav1',
-                          'px-3 py-2 rounded-md text-sm '
-                          
+                          item.current ? "  nav" : " nav1",
+                          "px-3 py-2 rounded-md text-sm "
                         )}
-                        aria-current={item.current ? 'page' : undefined}
+                        aria-current={item.current ? "page" : undefined}
                       >
-                        <a className='text-laser'>{item.number}</a>
-                        
-                        { item.name}
+                        <a className="text-laser">{item.number}</a>
+
+                        {item.name}
                       </a>
-
-
-
-                      
                     ))}
-                 
                   </div>
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-        
-              <button
+                <button
                   type="button"
-                  className=" mr-8 resume bg-transparent  text-laser font-semibold hover:text-white py-1.5 px-7  hover:border-transparent rounded"
+                  className="transition ease-in-out delay-150 hover:scale-110 hover:bg-indigo-500 duration-300 mr-8 resume bg-transparent  text-laser font-semibold hover:text-white py-1.5 px-7  hover:border-transparent rounded"
                 >
-                 Resume
+                  Resume
                 </button>
+
                 {/* Profile dropdown */}
                 <Menu as="div" className=" relative">
                   <div>
                     <Menu.Button className="bg-gray-800 flex text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
                       <span className="sr-only">Open user menu</span>
-                     
                     </Menu.Button>
-
-              
-
                   </div>
                   <Transition
                     as={Fragment}
@@ -107,12 +90,7 @@ export default function Example() {
                     leave="transition ease-in duration-75"
                     leaveFrom="transform opacity-100 scale-100"
                     leaveTo="transform opacity-0 scale-95"
-                  >
-
-                    
-             
-                  </Transition>
-      
+                  ></Transition>
                 </Menu>
               </div>
             </div>
@@ -126,24 +104,22 @@ export default function Example() {
                   as="a"
                   href={item.href}
                   className={classNames(
-                    item.current ? 'text-center bg-gray-900 text-white' : ' text-center text-gray-300 hover:bg-gray-700  hover:text-white',
-                    'block px-3 py-2 rounded-md text-base font-medium'
+                    item.current
+                      ? "text-center bg-gray-900 text-white"
+                      : " text-center text-gray-300 hover:bg-gray-700  hover:text-white",
+                    "block px-3 py-2 rounded-md text-base font-bold"
                   )}
-                  aria-current={item.current ? 'page' : undefined}
+                  aria-current={item.current ? "page" : undefined}
+                  smooth={true}
+                  duration={1000}
                 >
                   {item.name}
                 </Disclosure.Button>
               ))}
-
-
-              
             </div>
-            
           </Disclosure.Panel>
-          
         </>
-        
       )}
     </Disclosure>
-  )
+  );
 }

@@ -1,0 +1,19 @@
+
+    .top {
+        position:fixed;
+        bottom: 0.5rem;
+        right: 0.5rem;
+
+        border:1px solid rgb(109, 131, 242);
+        border-radius: 100%;
+        color: rgb(255, 255, 255);
+        background-color: rgb(109, 131, 242);
+
+       
+        
+      }
+
+      .top:hover{
+        animation: pulse;
+        animation-duration: 2s;
+      }

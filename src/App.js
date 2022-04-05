@@ -5,7 +5,10 @@ import Home from './Pages/Home/Home';
 import Project from './Pages/Project/Project';
 import Footer from './Pages/Footer/Footer';
 import About from './Pages/About/About';
-import Contact from './Pages/Contact/Contact';
+import ContactForm from './Pages/Contact/Contact';
+
+
+import {BrowserRouter as Router,Route, Switch,} from 'react-router-dom'
 export default function App() {
 
 
@@ -13,17 +16,15 @@ export default function App() {
   return (
 
     <>
-  
   <Navbar />
- 
   <Home />
   <About />
   <Project />
-  <Contact />
-  <br/>
-  <br/>
-  <br/>
+  <ContactForm />
   <Footer />
+  
+
+  
   </>
   )
 }
