@@ -1,4 +1,4 @@
-import Project2 from "./Bughut.png";
+import Bughut from "./Bughut.png";
 import "./Project.css";
 import Coffee from "./Coffee.png";
 import { AiFillBug, AiOutlineHtml5 } from "react-icons/ai";
@@ -140,7 +140,7 @@ export default function Project() {
             <img
               class=" project1 bughut object-cover object-center rounded scale-125"
               alt="hero"
-              src={Project2}
+              src={Bughut}
             />
           </div>
         </div>
@@ -382,7 +382,7 @@ export default function Project() {
             <img
               class=" project1 bughut object-cover object-center rounded scale-125"
               alt="hero"
-              src={Project2}
+              src={Bughut}
             />
           </div>
         </div>
