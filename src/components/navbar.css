@@ -15,7 +15,7 @@
     height: 100px;
     margin-bottom: -90px;
     margin-top: -50%;
-    left: 35%;
+    left: 40%;
  
 }
 
@@ -94,7 +94,7 @@ a{
 }
 
 .nav1:hover {
-    color: rgb(109, 131, 242);
+    color: #6d83f2;
 }
 
 
@@ -251,8 +251,10 @@ input:checked + .slider:before {
   }
 }
 
+.Logo{
+  margin-left: -20%;
 
-
+}
 
 
 

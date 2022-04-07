@@ -34,14 +34,14 @@ export default function Example() {
                 </Disclosure.Button>
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-                <div className="flex-shrink-0 flex items-center ">
+                <div className="flex-shrink-0 flex items-center l ">
                   <img
-                    className=" Logo1 block lg:hidden h-10 w-auto pr-8"
+                    className=" Logo1 block lg:hidden h-10 w-auto pr-8 "
                     src={Logo}
                     alt="Workflow"
                   />
                   <img
-                    className=" Logo hidden lg:block h-8 w-auto"
+                    className=" Logo hidden lg:block h-8 w-auto "
                     src={Logo}
                     alt="Workflow"
                   />
@@ -73,7 +73,7 @@ href="data:application/pdf;base64,JVBERi0xLjQKJdPr6eEKMSAwIG9iago8PC9UaXRsZSAoUG
 
 
                   type="button"
-                  className="transition ease-in-out delay-150 hover:scale-110 hover:bg-indigo-500 duration-300 mr-8 resume bg-transparent  text-laser font-semibold hover:text-white py-1.5 px-7  hover:border-transparent rounded"
+                  className="transition ease-in-out delay-150 hover:scale-110 hover:bg-indigo-500 duration-300 mr- resume bg-transparent  text-laser font-semibold hover:text-white py-1.5 px-7  hover:border-transparent rounded"
                 >
                   Resume
                 </a>

@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+
+.cGgUom {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0px;
+  left: 2rem;
+  z-index: 3;
+}
