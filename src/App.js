@@ -8,7 +8,7 @@ import About from './Pages/About/About';
 import ContactForm from './Pages/Contact/Contact';
 
 
-import {BrowserRouter as Router,Route, Switch,} from 'react-router-dom'
+
 export default function App() {
 
 
@@ -16,7 +16,9 @@ export default function App() {
   return (
 
     <>
+   
   <Navbar />
+
   <Home />
   <About />
   <Project />

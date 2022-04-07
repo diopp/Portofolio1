@@ -76,9 +76,8 @@ a{
     font-style: normal;
     display: inline-block;
     margin: 0 0.5rem;
-  
-    animation: slideInRight; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 2s; /* don't forget to set a duration! */
+    
+
     
 
 }
@@ -254,6 +253,17 @@ input:checked + .slider:before {
 .Logo{
   margin-left: -20%;
 
+}
+
+
+.mobile{
+  color: #6d83f2;
+  border:1px solid f8f8f8;
+}
+
+.mobile:hover {
+  background-color: #6d83f2;
+  color: #f8f8f8;
 }
 
 
