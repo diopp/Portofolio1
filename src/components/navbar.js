@@ -8,8 +8,9 @@ import pdf from "../Documents/PapaDiop_resume.pdf"
 
 const navigation = [
   { name: "About", number: "01. ", href: "/About", current: false },
-  { name: "Projects", number: "02. ", href: "/projects", current: false },
-  { name: "Contact", number: "03.", href: "/contact", current: false },
+  { name: "Skill", number: "02. ", href: "/About", current: false },
+  { name: "Projects", number: "03. ", href: "/projects", current: false },
+  { name: "Contact", number: "04.", href: "/contact", current: false },
 ];
 
 function classNames(...classes) {

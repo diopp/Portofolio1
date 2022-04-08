@@ -112,8 +112,10 @@ h5{
   #software{
     display: inline-block;
     margin: 0 0.9rem;
+    margin-left: 12px;
   
     animation:pulse; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 4s; 
 
   }
+

@@ -8,7 +8,6 @@ import About from './Pages/About/About';
 import ContactForm from './Pages/Contact/Contact';
 
 
-
 export default function App() {
 
 
@@ -16,10 +15,11 @@ export default function App() {
   return (
 
     <>
-   
+<header>
   <Navbar />
 
   <Home />
+  </header>
   <About />
   <Project />
   <ContactForm />
