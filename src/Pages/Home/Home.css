@@ -119,3 +119,19 @@ h5{
 
   }
 
+.github {
+    margin-top: -4px;
+}
+ 
+.github:hover{
+    animation: heartBeat; 
+    animation-duration: 2s;
+    
+  
+}
+
+.linkedin:hover{
+
+    animation: heartBeat; 
+  animation-duration: 2s;
+}

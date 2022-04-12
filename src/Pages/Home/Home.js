@@ -3,18 +3,17 @@ import { BsLinkedin } from "react-icons/bs";
 import { AiFillGithub } from "react-icons/ai";
 import "./Home.css";
 import "animate.css";
-import ParticleBackground from '../../components/particleBackground'
 
 function Home() {
 
   return (
-    <section  >   
+ 
     <div
       className=" pb-12 overflow-y-hidden"
       id="home"
       style={{ minHeight: 600 }}
     >
-  <ParticleBackground id="particles-js"  />
+
       <div className="bg-gray-100">
         <div className="container mx-auto flex flex-col items-center py-12 sm:py-24">
           <div className="w-11/12 sm:w-2/3 lg:flex justify-center items-center flex-col  mb-5 sm:mb-10">
@@ -34,12 +33,12 @@ function Home() {
           </div>
           <div className="flex justify-center items-center">
             <div class="flex justify-center mb-9">
-              <a href="https://www.linkedin.com/in/papa-diop1/" class="mr-9 ">
+              <a target="_blank" href="https://www.linkedin.com/in/papa-diop1/" class="mr-9 linkedin">
                 <BsLinkedin size={35} />
               </a>
 
-              <a href="https://github.com/diopp" class="mr-9 ">
-                <AiFillGithub size={40} />
+              <a target="_blank" href="https://github.com/diopp" class="mr-9  github ">
+                <AiFillGithub size={45}  />
               </a>
             </div>
           </div>
@@ -48,7 +47,7 @@ function Home() {
 
 
     </div>
-    </section>
+
   );
 }
 

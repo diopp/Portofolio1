@@ -34,7 +34,7 @@ In my free time you will find me going for a run or playing monoploy. </p>
               <div class="md:pr-12 ">
                 <img
                   alt="..."
-                  class=" papas drop-shadow-2xl  rounded-bl-lg image shadow-2xl   bg-gradient-to-r from-indigo-500   max-w-full rounded-br-lg    shadow-lg shadow-laser-600"
+                  class=" drop-shadow-2xl   rounded-bl-lg image shadow-2xl   bg-gradient-to-r from-indigo-500   max-w-full rounded-br-lg    shadow-lg shadow-laser-600"
                   src={Papa}
                 />
               </div>
