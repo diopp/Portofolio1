@@ -4,13 +4,14 @@ import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import React from "react";
-import pdf from "../Documents/PapaDiop_resume.pdf"
+import pdf from "../Documents/PapaDiop_resume.pdf";
+
 
 const navigation = [
-  { name: "About", number: "01. ", href: "/About",current: false },
-  { name: "Skill", number: "02. ", href: "/Skill", current: false },
-  { name: "Projects", number: "03. ", href: "/projects", current: false },
-  { name: "Contact", number: "04.", href: "/contact", current: false },
+  { name: "About", number: "01. ", href: "#one",current: false },
+  { name: "Skills", number: "02. ", href: "#two", current: false },
+  { name: "Projects", number: "03. ", href: "#three", current: false },
+  { name: "Contact", number: "04.", href: "#four", current: false },
 ];
 
 function classNames(...classes) {
@@ -18,8 +19,9 @@ function classNames(...classes) {
 }
 
 export default function Example() {
+
   return (
-    <Disclosure as="nav" className="navbar ">
+    <Disclosure as="nav" className="navbar sticky top-0 z-50 ">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
@@ -52,8 +54,9 @@ export default function Example() {
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4 nav">
                     {navigation.map((item) => (
-                      
+                    
                       <a
+                   
                         key={item.name}
                         href={item.href}
                         className={classNames(
@@ -66,6 +69,7 @@ export default function Example() {
 
                         {item.name}
                       </a>
+               
                     ))}
                   </div>
                 </div>

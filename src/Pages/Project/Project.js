@@ -21,10 +21,10 @@ import { FaNode } from "react-icons/fa";
 export default function Project() {
   return (
     <>
-      <section>
+      <section id="three">
         <div class="mt-20 pt-20">
           <h2 class="text-center about pt-15">
-            <span class="number">02. </span>
+            <span class="number">03. </span>
             Projects{" "}
           </h2>
         </div>

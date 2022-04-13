@@ -3,8 +3,10 @@ import Papa from "./Papa1.JPG";
 
 function About() {
   return (
+
+    
     <div id="about">
-      <section class="">
+      <section id="one" class="">
         <div class=" About  ">
           <h2 class=" text-center about pt-15">
             <span class="number">01. </span>

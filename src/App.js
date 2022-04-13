@@ -7,22 +7,25 @@ import Footer from './Pages/Footer/Footer';
 import About from './Pages/About/About';
 import ContactForm from './Pages/Contact/Contact';
 import ParticleBackground from './components/particleBackground';
-import Skills from './Pages/Skills/Skills'
+
 
 export default function App() {
 
 
 
   return (
+    
 
     <>
+     
   <ParticleBackground   />
+
   <Navbar />
 
   <Home />
 
   <About />
-  <Skills />
+
   <Project />
   <ContactForm />
   <Footer />

@@ -23,10 +23,10 @@ const ContactForm = () => {
     alert(result.status);
   };
   return (
-    <section>
+    <section id="four">
       <div class="mt-2 pt-20">
         <h2 class="text-center about  mb-20">
-          <span class="number">03. </span>
+          <span class="number">04. </span>
           Get In Touch{" "}
         </h2>
       </div>
