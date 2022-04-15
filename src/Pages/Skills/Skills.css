@@ -61,3 +61,38 @@ img {
     vertical-align: baseline;
 }
 
+
+i{
+    font-size:55px;
+    text-align: center;
+    color: #112240;
+
+}
+
+
+i:hover{
+    color:#6A98F0;
+    animation: pulse;
+    animation-duration: 1s;
+}
+
+p{
+    color: #6A98F0;
+    font-size:12px;
+}
+
+.pc{
+    color: #6A98F0;
+}
+
+.cards {
+    
+    animation-duration:4s;
+
+ 
+}
+
+.i:hover{
+    animation:pulse;
+    animation-duration: 1s;
+}

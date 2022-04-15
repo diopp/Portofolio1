@@ -121,6 +121,7 @@ h5{
 
 .github {
     margin-top: -4px;
+    z-index:9999
 }
  
 .github:hover{
@@ -135,3 +136,54 @@ h5{
     animation: heartBeat; 
   animation-duration: 2s;
 }
+
+section {
+    
+        z-index: 9999;
+    
+      
+}
+
+a{
+    z-index:9999
+}
+
+.side {
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: auto ;
+    right: 45px;
+    z-index: 10;
+    color: #6A98F0;
+    margin-left: 100%;
+}
+
+.side a {
+    margin: 20px auto;
+    padding: 10px;
+    font-family: var(--font-mono);
+    font-size: var(--fz-xxs);
+    line-height: var(--fz-lg);
+    letter-spacing: 0.1em;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+}
+
+.side::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0px auto;
+    background-color: #5b7fe7;
+    animation: pulse;
+    animation-duration: 1s; 
+}
+
+.side a:hover {
+    animation: pulse;
+    animation-duration: 1s;
+}
+
+

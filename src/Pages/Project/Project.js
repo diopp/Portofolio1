@@ -43,82 +43,16 @@ export default function Project() {
                     A CRUD Node.js responsive web app for teams to track bugs in
                     their code
                   </p>
-                  <p class="text-indigo-200 text-base pb-6 ml-4">
-                    <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
-                      <li>
-                        <a
-                          href="#"
-                          class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
-                          aria-current="page"
-                        >
-                          <AiOutlineHtml5 size={30} />
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          class="block py-2 pr-4 pl-3 bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
-                          aria-current="page"
-                        >
-                          <DiCss3 size={30} />
-                        </a>{" "}
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
-                          aria-current="page"
-                        >
-                          <DiJavascript1 size={30} />
-                        </a>{" "}
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
-                          aria-current="page"
-                        >
-                          <DiJqueryLogo size={30} />
-                        </a>{" "}
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
-                          aria-current="page"
-                        >
-                          <BsBootstrap size={30} />
-                        </a>{" "}
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
-                          aria-current="page"
-                        >
-                          <DiMongodb size={30} />
-                        </a>{" "}
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
-                          aria-current="page"
-                        >
-                          <SiExpress size={30} />
-                        </a>{" "}
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
-                          aria-current="page"
-                        >
-                          <FaNode size={30} />
-                        </a>{" "}
-                      </li>
-                    </ul>
-                  </p>
+
+                  <div class="grid grid-cols-6 sm:grid-cols-6 gap-20 m-auto pr-auto">
+                  <span class="inline-flex items-center justify-center px-8 py-1 text-xs font-bold leading-none text-red-100 bg-red-600 rounded-full">HTML</span>
+                  <span class="inline-flex items-center justify-center px-8 py-1 text-xs font-bold leading-none text-red-100 bg-red-600 rounded-full">CSS</span>
+                  <span class="inline-flex items-center justify-center px-8 py-1 text-xs font-bold leading-none text-red-100 bg-red-600 rounded-full">Javascript</span>
+                  <span class="inline-flex items-center justify-center px-8 py-1 text-xs font-bold leading-none text-red-100 bg-red-600 rounded-full">Jquery</span>
+                  <span class="inline-flex items-center justify-center px-8 py-1 text-xs font-bold leading-none text-red-100 bg-red-600 rounded-full">MongoDB</span>
+                  <span class="inline-flex items-center justify-center px-8 py-1 text-xs font-bold leading-none text-red-100 bg-red-600 rounded-full">Bootstrap</span>
+                  <span class="inline-flex items-center justify-center px-8 py-1 text-xs font-bold leading-none text-red-100 bg-red-600 rounded-full">99+</span>
+</div>
                   <div class="ml-2">
                     <a
                     href='https://bughut.herokuapp.com/'

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
- 
+
 
 .About {
     background-color: #f8f8f8;
@@ -51,16 +51,42 @@ h2 {
 
   .button{
       margin-left: 35px;
+       
   }
 
 
 .contact {
     color:#6D83F2;
     border:1px solid #6D83F2;
+    z-index: 9999;
+    
 }
 
 .contact:hover{
     color: white;
     background-color: #6D83F2;
+
 }
+
+.image {
+    box-shadow: 10px -8px 0px  #6D83F2,  0 1px 2px rgba(0,0,0,0.24);
+
+    border: 1px solid white;
+
+    
+
+ 
+} 
+
+.image:hover {
+    box-shadow: -10px 8px 0px #6D83F2;
+    animation:headShake;
+    animation-duration: 2s;
+    border:1px solid white;
+
+
+  
+
+}
+
 

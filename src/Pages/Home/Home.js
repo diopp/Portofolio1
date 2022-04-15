@@ -7,7 +7,8 @@ import "animate.css";
 function Home() {
 
   return (
- 
+
+ <section>
     <div
       className=" pb-12 overflow-y-hidden"
       id="home"
@@ -48,6 +49,13 @@ function Home() {
 
     </div>
 
+    <div orientation="right" class='side'>
+      <div class='email'>
+        <a href="mailto:pd@papadiop.com">pd@papadiop.com</a>
+      
+      </div>
+    </div>
+    </section>
   );
 }
 
