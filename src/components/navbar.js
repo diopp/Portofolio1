@@ -11,6 +11,7 @@ const navigation = [
   { name: "About", number: "01. ", href: "#one",current: false },
   { name: "Skills", number: "02. ", href: "#two", current: false },
   { name: "Projects", number: "03. ", href: "#three", current: false },
+
   { name: "Contact", number: "04.", href: "#four", current: false },
 ];
 

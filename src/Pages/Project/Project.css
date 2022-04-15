@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
 .card {
     margin-left: -100px;
     
@@ -61,8 +63,12 @@ body{
 .bug {
     color: rgb(255, 255, 255);
     background-color: rgb(109, 131, 242);
-    border: 1px solid rgb(109, 131, 242);
+    border: 1px solid rgba(10, 25, 47, 0.85);
     border-radius: 100%;
+}
+
+.bug:hover{
+    border:2px double #112240;
 }
 
 .title {
@@ -104,4 +110,24 @@ img {
     border: 1px solid rgb(109, 131, 242);
     margin-left: 5%;
     
+}
+
+.badge{
+    background-color:#C7D0FF ;
+    color: white;
+}
+
+span:hover{
+
+    animation: pulse;
+    animation-duration: 2s;
+}
+
+.p1{
+    font-size:smaller;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Major Mono Display', monospace;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
