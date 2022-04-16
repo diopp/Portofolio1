@@ -91,9 +91,8 @@ h2 {
         margin-bottom: 30px;
     }
 
-    .image{
-        margin-top: 30px;
-        margin-left: 33%;
+    img.image3{
+    visibility: hidden;
     }
 
     .contact{
@@ -107,5 +106,5 @@ h2 {
     h2{
         margin-top: -195px;
     }
-    
+
 }
