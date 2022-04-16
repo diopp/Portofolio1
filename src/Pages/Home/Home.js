@@ -54,7 +54,7 @@ function Home() {
          
                 <img
                   alt="..."
-                  class="image1 drop-shadow-2xl  sm:pr-20  rounded-bl-lg image shadow-2xl   bg-gradient-to-r from-indigo-500   max-w-full rounded-br-lg    shadow-lg shadow-laser-600"
+                  class="scale-75 image1 drop-shadow-2xl  sm:pr-20  rounded-bl-lg image shadow-2xl   bg-gradient-to-r from-indigo-500   max-w-full rounded-br-lg    shadow-lg shadow-laser-600"
                   src={Papa}
                 />
           
