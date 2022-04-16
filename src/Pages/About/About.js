@@ -38,8 +38,9 @@ I am open to <span class='text-lg'> job opportunities</span> where I can <span c
             <div class="w-full md:w-5/12 mr-20 mr-auto px-1">
               <div class="md:pr-12 ">
                 <img
+                id="image_About"
                   alt="..."
-                  class="image3 drop-shadow-2xl  sm:pr-20  rounded-bl-lg image shadow-2xl   bg-gradient-to-r from-indigo-500   max-w-full rounded-br-lg    shadow-lg shadow-laser-600"
+                  class="scale-100 drop-shadow-2xl  sm:pr-20  rounded-bl-lg  shadow-2xl image   bg-gradient-to-r from-indigo-500   max-w-full rounded-br-lg    shadow-lg shadow-laser-600"
                   src={Papa}
                 />
               </div>

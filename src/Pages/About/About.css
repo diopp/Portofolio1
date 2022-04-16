@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
 
+@media (min-width: 640px){
+.sm\:pr-20 {
+    padding-right: 0rem;
+}
+}
 
 .About {
     background-color: #f8f8f8;
@@ -7,7 +12,7 @@
 
 
 
-img,.papas{
+#image_About{
     width: 65%;
     height: 65%;
     margin-left: 10%;
@@ -68,13 +73,13 @@ h2 {
 
 }
 
-.image {
+#image_About {
     box-shadow: 10px -8px 0px  #6D83F2,  0 1px 2px rgba(0,0,0,0.24);
     margin-top: 52px;
 
 } 
 
-.image:hover {
+#image_About {
     box-shadow: -10px 8px 0px #6D83F2;
     animation:headShake;
     animation-duration: 2s;
@@ -91,7 +96,7 @@ h2 {
         margin-bottom: 30px;
     }
 
-    img.image3{
+    #image_About {
     visibility: hidden;
     }
 
@@ -104,7 +109,7 @@ h2 {
     }
 
     #About{
-        margin-top: -197px;
+        margin-top: -200px;
     }
 
 }

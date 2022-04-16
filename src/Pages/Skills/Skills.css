@@ -96,3 +96,21 @@ p{
     animation:pulse;
     animation-duration: 1s;
 }
+
+@media (max-width: 640px) { 
+
+#Skills{
+    margin-top: -280px;
+}
+
+#skills_icon{
+    margin-top: -200px;
+    margin-left: -3%;
+}
+
+i{
+    font-size: 50px;
+}
+
+
+}

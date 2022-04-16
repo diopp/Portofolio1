@@ -11,7 +11,7 @@ function Home() {
 
  <section class='home'>
     <div
-      className="home pb-12 overflow-y-hidden"
+      className="home pb-5 overflow-y-hidden"
       id="home"
       style={{ minHeight: 600 }}
     >
@@ -53,8 +53,9 @@ function Home() {
           
          
                 <img
+                  id='image1'
                   alt="..."
-                  class="scale-75 image1 drop-shadow-2xl  sm:pr-20  rounded-bl-lg image shadow-2xl   bg-gradient-to-r from-indigo-500   max-w-full rounded-br-lg    shadow-lg shadow-laser-600"
+                  class="scale-75 image1 drop-shadow-2xl  sm:pr-20  rounded-bl-lg image shadow-2xl   bg-gradient-to-r from-indigo-500   max-w-full rounded-br-lg    shadow-lg shadow-laser-600 "
                   src={Papa}
                 />
           

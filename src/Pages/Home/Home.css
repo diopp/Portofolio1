@@ -217,10 +217,28 @@ padding-top:18%;
     margin-bottom: 24.25rem;
 }
 
-img.image1 {
+#image1{
     margin-top: -380px;
-    margin-left: 1px;
+    box-shadow: 10px -8px 0px  #6D83F2,  0 1px 2px rgba(0,0,0,0.24);
+
+
+    visibility: visible;
 }
 
 
+
+
 }
+
+@media (min-width: 925px) {
+
+    #image1{
+        visibility: collapse;
+       display: none;
+   
+        
+    }
+
+ 
+}
+

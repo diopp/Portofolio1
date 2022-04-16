@@ -16,8 +16,8 @@ export default function Skills() {
       <link href="https://unpkg.com/pattern.css" rel="stylesheet" />
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
          <div class="mt-20 pt-20">
-          <h2 class="text-center about pt-15">
-            <span class="number">02. </span>
+          <h2 id='Skills' class="text-center about pt-15">
+            <span class="number2">02. </span>
             Skills{" "}
           </h2>
         </div>
@@ -31,7 +31,7 @@ export default function Skills() {
                 <div className="flex-grow  ">
                   <h2 className=" text-xl title-font font-medium mb-3">
 </h2>
-<div class="grid grid-cols-6 sm:grid-cols-6 gap-20 m-auto pr-auto">
+<div id='skills_icon' class="grid grid-cols-6 sm:grid-cols-6 gap-20 m-auto pr-auto">
 <div class='i'>
 <i class="devicon-html5-plain "></i>
 <p class='pl-3'>HTML</p>
