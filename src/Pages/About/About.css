@@ -99,4 +99,12 @@ h2 {
     .contact{
         margin-left: 36%;
     }
+
+    #one{
+        padding-top: 102px;
+    }
+
+    h2{
+        margin-top: -100px;
+    }
 }
