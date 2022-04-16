@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { BsLinkedin } from "react-icons/bs";
 import { AiFillGithub } from "react-icons/ai";
+import Papa from "./Papa.JPG";
 import "./Home.css";
 import "animate.css";
 
@@ -41,8 +42,23 @@ function Home() {
               <a target="_blank" href="https://github.com/diopp" class="mr-9  github ">
                 <AiFillGithub size={45}  />
               </a>
+
+              
             </div>
+
+
+
+            
           </div>
+          
+         
+                <img
+                  alt="..."
+                  class="image1 drop-shadow-2xl  sm:pr-20  rounded-bl-lg image shadow-2xl   bg-gradient-to-r from-indigo-500   max-w-full rounded-br-lg    shadow-lg shadow-laser-600"
+                  src={Papa}
+                />
+          
+        
         </div>
       </div>
 
