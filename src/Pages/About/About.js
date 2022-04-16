@@ -10,8 +10,8 @@ function About() {
 
 
         <div class="mt-20 pt-20">
-          <h2 class=" text-center about pt-15">
-            <span class="number">01. </span>
+          <h2 id='About' class=" text-center about pt-15">
+            <span class="number1">01. </span>
             About Me{" "}
           </h2>
           <div class="items-center flex flex-wrap">
