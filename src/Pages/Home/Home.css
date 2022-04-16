@@ -199,6 +199,7 @@ padding-top: 20%;
 
 .papa{
     font-size:45px;
+    margin-top: -110px;
     
 }
 
@@ -212,6 +213,8 @@ padding-top: 20%;
     visibility: hidden;
 }
 
-
+.mb-9 {
+    margin-bottom: 24.25rem;
+}
 
 }
