@@ -8,9 +8,9 @@ function Home() {
 
   return (
 
- <section>
+ <section class='home'>
     <div
-      className=" pb-12 overflow-y-hidden"
+      className="home pb-12 overflow-y-hidden"
       id="home"
       style={{ minHeight: 600 }}
     >
@@ -23,7 +23,7 @@ function Home() {
             </h1>
             <h5
               id="software"
-              className="sm:pr-10  text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center  font-black leading-7 md:leading-10"
+              className="sm:pl-10 sm:mr-10  text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center  font-black leading-7 md:leading-10"
             >
               Software Engineer
             </h5>
@@ -49,7 +49,7 @@ function Home() {
 
     </div>
 
-    <div orientation="right" class='side'>
+    <div orientation="right" class='side '>
       <div class='email'>
         <a href="mailto:pd@papadiop.com">pd@papadiop.com</a>
       

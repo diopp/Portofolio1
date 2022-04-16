@@ -187,3 +187,31 @@ a{
 }
 
 
+@media (max-width: 640px) { 
+    #software{
+    padding-left: 26%;
+    }
+
+
+    .home{
+padding-top: 20%;    
+}
+
+.papa{
+    font-size:55px;
+    
+}
+
+#software{
+    font-size: 32px;
+    padding-left: 20%;
+    padding-top: 5%;
+}
+
+.side{
+    visibility: hidden;
+}
+
+
+
+}
