@@ -78,4 +78,12 @@ h2 {
     animation-duration: 2s;
 }
 
+@media (max-width: 640px) { 
+    h2{
+      margin-top: -59px;
+    }
 
+    .pl-20 {
+        padding-left: 0rem;
+    }
+}
