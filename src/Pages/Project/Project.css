@@ -142,7 +142,7 @@ span:hover{
     }    
 
     .bug{
-        margin-left: 31%;
+        margin-left: 38%;
     }
 
     .title {
@@ -162,17 +162,30 @@ span:hover{
     .demo{
         font-size: 14px;
         padding: 10px;
+        width: fit-content;
         
     }
     
     .demo1{
         font-size: 14px;
+        padding: 10px;
         margin-top: 5%;
-    }
+         }
 
   .project1{
-      margin-left: 2%;
+      padding-bottom: 150%;
+      margin-left: -3%;
   }
-  
+
+figure{
+    margin: 0;
+    padding-right: 2%;
+    margin-left: -19%;
+
+}
+
+.buttons{
+    padding-left: 30px;
+}
 
 }
