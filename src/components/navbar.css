@@ -56,6 +56,7 @@
 .resume{
     color:rgb(109, 131, 242);
     width: 100%;
+    margin-left: 12%;
     border: 1px solid rgb(109, 131, 242);;
     font-family: 'Roboto Mono', monospace;
     font-size: 16px;
@@ -268,6 +269,7 @@ input:checked + .slider:before {
   border:1px solid #ffffff;
   background-color: #6d83f2;
   z-index: 9999;
+  margin-right: auto;
  
 }
 
