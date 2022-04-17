@@ -119,7 +119,7 @@ export default function Example() {
                     item.current
                       ? "text-center bg-gray-900 text-white"
                       : " text-center text-gray-300 hover:bg-gray-700  hover:text-white",
-                    "block px-3 py-2 rounded-md text-base font-bold mobile"
+                    "block px-3 py-2 rounded-md text-base font-bold mobile  mr-5"
                   )}
                   aria-current={item.current ? "page" : undefined}
                   smooth={true}

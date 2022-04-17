@@ -39,6 +39,7 @@
 
 .navbar{
     background-color: #f8f8f8;
+    z-index: 9999;
 
   
 
@@ -260,13 +261,17 @@ input:checked + .slider:before {
 
 
 .mobile{
-  color: #6d83f2;
-  border:1px solid f8f8f8;
+  color: white;
+  border:1px solid #ffffff;
+  background-color: #6d83f2;
+  z-index: 9999;
+ 
 }
 
 .mobile:hover {
   background-color: #6d83f2;
   color: #f8f8f8;
+  
 }
 
 
