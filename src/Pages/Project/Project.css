@@ -131,3 +131,48 @@ span:hover{
     font-family: 'Playfair Display', serif;
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+
+
+@media (max-width: 640px) { 
+
+    .ml-20 {
+        margin-left: 5rem;
+        margin-top: 60px;
+    }    
+
+    .bug{
+        margin-left: 31%;
+    }
+
+    .title {
+        margin-left: 20%;
+    }
+
+    .b{
+        margin-right: 3px;
+        margin-left: 0px;
+    }
+
+    h1{
+        visibility: hidden;
+        display: none;
+    }
+
+    .demo{
+        font-size: 14px;
+        padding: 10px;
+        
+    }
+    
+    .demo1{
+        font-size: 14px;
+        margin-top: 5%;
+    }
+
+  .project1{
+      margin-left: 2%;
+  }
+  
+
+}

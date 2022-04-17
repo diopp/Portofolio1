@@ -29,7 +29,7 @@ export default function Project() {
             Projects{" "}
           </h2>
         </div>
-        <div class="mx-auto flex px-5  md:flex-row flex-col items-center jobcard">
+        <div class="mx-auto flex px-5 b1  md:flex-row flex-col items-center jobcard">
           <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center">
             <figure class="visible">
               <div class="">
@@ -46,21 +46,21 @@ export default function Project() {
                   </p>
 
                   <div class="text-left pl-4 ">
-            <span class="inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">HTML</span>
-            <span class="inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">CSS</span>
-            <span class="inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Javascript</span>
-            <span class="inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Jquery</span>
+            <span class=" b inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">HTML</span>
+            <span class=" b inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">CSS</span>
+            <span class="b inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Javascript</span>
+            <span class="b inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Jquery</span>
             <span class="inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Node.js</span>
             <h1></h1>
-            <span class="inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Bootstrap</span>
-            <span class="inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">MongoDB</span>
-            <span class="inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Mongoose</span>
-            <span class="inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Express</span>
+            <span class="b inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Bootstrap</span>
+            <span class="b inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">MongoDB</span>
+            <span class="b inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Mongoose</span>
+            <span class="b inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Express</span>
             
           
         </div>
        
-                  <div class="ml-2 pt-5">
+                  <div class=" buttons ml-2 pt-5">
                     <a
                     href='https://bughut.herokuapp.com/'
                       type="button"
