@@ -42,7 +42,7 @@ export default function Example() {
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center l ">
                   <img
-                    className=" Logo1 block lg:hidden h-10 w-auto pr-8 "
+                    className=" Logo1 block lg:hidden h-10 w-auto pr-12 "
                     src={Logo}
                     alt="Workflow"
                   />
@@ -119,7 +119,7 @@ export default function Example() {
                     item.current
                       ? "text-center bg-gray-900 text-white"
                       : " text-center text-gray-300 hover:bg-gray-700  hover:text-white",
-                    "block px-3 py-2 rounded-md text-base font-bold mobile  mr-5"
+                    "block px-3 py-2 rounded-md text-base font-bold mobile  mr-5 "
                   )}
                   aria-current={item.current ? "page" : undefined}
                   smooth={true}
