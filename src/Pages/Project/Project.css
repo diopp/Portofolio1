@@ -145,6 +145,14 @@ span:hover{
         margin-left: 38%;
     }
 
+    .bug1{
+        margin-left: 50%;
+        color: rgb(255, 255, 255);
+        background-color: rgb(109, 131, 242);
+        border: 1px solid rgba(10, 25, 47, 0.85);
+        border-radius: 100%;
+    }
+
     .title {
         margin-left: 20%;
     }
@@ -191,7 +199,28 @@ figure{
 }
 
 .buttons{
-    padding-left: 30px;
+    padding-left: 32px;
+}
+
+.project4{
+    visibility:hidden;
+    display: none;
+}
+
+.coffee{
+    padding-bottom: 150%;
+    margin-top: -170%;
+}
+.p2{
+    margin-left: 7rem;
+}
+
+.badge1{
+    margin-left: 5.6rem;
+}
+
+.buttons1{
+    padding-left: 7.4rem;
 }
 
 }

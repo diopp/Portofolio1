@@ -98,17 +98,17 @@ export default function Project() {
             />
           </div>
 
-          <div class="  lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center ">
+          <div class="coffee  lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center ">
             <figure class="visible">
               <div class="">
                 <div class="content  sm:px-6 ">
-                  <span class=" bug inline-block py-5 px-5 ml-5   text-xs font-bold tracking-widest mb-2">
-                    <FiCoffee size={30} />{" "}
+                  <span class=" bug1 inline-block py-5 px-5 ml-5   text-xs font-bold tracking-widest mb-2">
+                    <FiCoffee size={35} />{" "}
                   </span>
                   <h1 class=" title title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-100 ml-5">
                     Phoenix Roasters
                   </h1>
-                  <p class=" text-slate-500  text-base pb-6 ml-5">
+                  <p class="p2 text-slate-500  text-base pb-6 ml-5">
                     This application is designed to be an interactive to-go
                     ordering website for local coffee websites. Easily
                     customizeable by the client to fit any future needs as the
@@ -118,16 +118,16 @@ export default function Project() {
                   </p>
                 
 
-                  <div class="text-left pl-4 ">
-            <span class="inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">HTML</span>
-            <span class="inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">CSS</span>
-            <span class="inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Javascript</span>
-            <span class="inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Django</span>
-            <span class="inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Python</span>
+                  <div class="badge1 text-left pl-4 ">
+            <span class="b inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">HTML</span>
+            <span class="b inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">CSS</span>
+            <span class="b inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Javascript</span>
+            <span class="b inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Django</span>
+            <span class="b inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Python</span>
             <h1></h1>
-            <span class="inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">PostgreSQL</span>
-            <span class="inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Bootstrap</span>
-            <span class="inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">SASS</span>
+            <span class="b inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">PostgreSQL</span>
+            <span class="b inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Bootstrap</span>
+            <span class="b inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">SASS</span>
 
             
           
@@ -135,9 +135,9 @@ export default function Project() {
 
 
 
-                  <div class="ml-2 mt-4">
+                  <div class="buttons1 ml-2 mt-4">
                     <a
-                      type="button"
+                      type="buttons"
                       className=" demo ml-3 px-2   hover:text-white py-3 px-6   rounded"
                       href="https://phoenix-roasters.herokuapp.com/"
                     >
