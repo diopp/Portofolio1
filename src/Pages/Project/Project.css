@@ -223,4 +223,22 @@ figure{
     padding-left: 7.4rem;
 }
 
+.project2{
+    margin-left: 20%;
+    margin-top: 20%;
 }
+
+}
+@media (min-width: 925px) {
+
+    #project{
+        visibility: collapse;
+       display: none;
+    
+   
+        
+    }
+
+ 
+}
+

@@ -152,8 +152,18 @@ export default function Project() {
                       View Github Repo
                     </a>
                   </div>
+                  
                 </div>
+                
               </div>
+              <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pr-1 flex flex-col md:items-start md:text-right mb-16 md:mb-0 items-center">
+            <img
+              id="project"
+              class=" project2 bughut object-cover object-center rounded scale-150 pr-10"
+              alt="hero"
+              src={Coffee}
+            />
+          </div>
             </figure>
           </div>
         </div>
@@ -210,7 +220,8 @@ export default function Project() {
           </div>
           <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pr-1 flex flex-col md:items-start md:text-right mb-16 md:mb-0 items-center">
             <img
-              class=" project1 bughut object-cover object-center rounded scale-150"
+            
+              class=" project2 bughut object-cover object-center rounded scale-150 "
               alt="hero"
               src={shoppa}
             />
