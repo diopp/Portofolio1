@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { BsLinkedin } from "react-icons/bs";
 import { AiFillGithub } from "react-icons/ai";
+import {BiDownArrowAlt} from "react-icons/bi";
 import Papa from "./Papa.JPG";
 import "./Home.css";
 import "animate.css";
@@ -34,7 +35,7 @@ function Home() {
             </p>
           </div>
           <div className="flex justify-center items-center">
-            <div class="flex justify-center mb-9">
+            <div class="flex justify-center mb-9 ml-20">
               <a target="_blank" href="https://www.linkedin.com/in/papa-diop1/" class="mr-9 linkedin">
                 <BsLinkedin size={35} />
               </a>
@@ -50,6 +51,10 @@ function Home() {
 
             
           </div>
+
+          <a  href="#one" class="mr- ml-12 mt-12  arrow ">
+                <BiDownArrowAlt size={45}  />
+              </a>
           
          
                 <img

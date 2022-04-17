@@ -17,3 +17,10 @@
         animation: pulse;
         animation-duration: 2s;
       }
+
+
+      @media (max-width: 640px) { 
+#contact{
+  margin-left: 5%;
+}
+      }

@@ -105,11 +105,17 @@ p{
 
 #skills_icon{
     margin-top: -200px;
-    margin-left: -3%;
+    margin-left: -10%;
 }
 
 i{
     font-size: 50px;
+}
+
+#skills_icon{
+	grid-template-columns: repeat(3, minmax(0, 1fr));   
+     gap:17px;
+
 }
 
 

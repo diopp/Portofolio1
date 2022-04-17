@@ -51,7 +51,7 @@ export default function Project() {
             <span class="b inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Javascript</span>
             <span class="b inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Jquery</span>
             <span class="inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Node.js</span>
-            <h1></h1>
+            <a></a>
             <span class="b inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Bootstrap</span>
             <span class="b inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">MongoDB</span>
             <span class="b inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Mongoose</span>
@@ -90,9 +90,9 @@ export default function Project() {
         </div>
 
         <div class="mx-auto flex px-4  md:flex-row flex-col items-center jobcard">
-          <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-15 flex flex-col md:items-start  mb-16 md:mb-0 items-center">
+          <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pl-1 flex flex-col md:items-start  mb-16 md:mb-0 items-center">
             <img
-              class="project4 bughut object-cover object-center rounded scale-125"
+              class="project4 bughut object-cover object-center rounded scale-110"
               alt="hero"
               src={Coffee}
             />
@@ -124,7 +124,7 @@ export default function Project() {
             <span class="b inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Javascript</span>
             <span class="b inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Django</span>
             <span class="b inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Python</span>
-            <h1></h1>
+            <a></a>
             <span class="b inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">PostgreSQL</span>
             <span class="b inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Bootstrap</span>
             <span class="b inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">SASS</span>
@@ -190,7 +190,7 @@ export default function Project() {
             <span class="inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Javascript</span>
             <span class="inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">React</span>
             <span class="inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Tailwind</span>
-            <h1></h1>
+            <a></a>
             <span class="inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Node.js</span>
             <span class="inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Express</span>
             <span class="inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">MongoDB</span>
@@ -220,8 +220,8 @@ export default function Project() {
           </div>
           <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pr-1 flex flex-col md:items-start md:text-right mb-16 md:mb-0 items-center">
             <img
-            
-              class=" project2 bughut object-cover object-center rounded scale-150 "
+              id='project3' 
+              class=" bughut object-cover object-center rounded scale-110  "
               alt="hero"
               src={shoppa}
             />

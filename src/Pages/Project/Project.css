@@ -15,6 +15,12 @@ img{
     background-color: #f8f8f8;
 }
 
+.arrow{
+    animation: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
 
 .work::after {
     
@@ -78,9 +84,9 @@ body{
 .project1 {
 
     display: block;
-    width: 80%;
+ 
     min-width: 100%;
-    margin-left: -20%;
+    margin-left: -25%;
     margin-top: 60px;
     filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
@@ -92,6 +98,11 @@ body{
     margin-left:5%;
     margin-top: 60px;
     filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+#project3{
+    width: 2000px;
+    margin-left: -25%;
 }
 
 img {
@@ -162,10 +173,6 @@ span:hover{
         margin-left: 0px;
     }
 
-    h1{
-        visibility: hidden;
-        display: none;
-    }
 
     .demo{
         font-size: 14px;
@@ -228,6 +235,11 @@ figure{
     margin-top: 20%;
 }
 
+.arrow{
+    visibility: hidden;
+    display: none;
+}
+
 }
 @media (min-width: 925px) {
 
@@ -237,6 +249,12 @@ figure{
     
    
         
+    }
+
+
+    .project3{
+        width: 50%;
+ 
     }
 
  
