@@ -110,6 +110,14 @@ h2 {
 
     #About{
         margin-top: -200px;
+        
     }
+
+}
+
+.image{
+    animation: pulse;
+    animation-duration: 1s;
+    animation-delay: calc(var(--scroll) * -5s);
 
 }

@@ -1,6 +1,6 @@
 import 'animate.css';
 import "./Skills.css";
-
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 export default function Skills() {
     return (
@@ -31,7 +31,10 @@ export default function Skills() {
                 <div className="flex-grow  ">
                   <h2 className=" text-xl title-font font-medium mb-3">
 </h2>
+
+<AnimationOnScroll animateIn="animate__bounceInDown">
 <div id='skills_icon' class="grid grid-cols-6  gap-20 m-auto pr-auto">
+
 <div class='i'>
 <i class="devicon-html5-plain "></i>
 <p class='pl-3'>HTML</p>
@@ -143,6 +146,7 @@ export default function Skills() {
 
 
                 </div>
+                </AnimationOnScroll>
                 </div>
               </div>
             </div>

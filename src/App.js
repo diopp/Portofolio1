@@ -7,7 +7,10 @@ import Footer from './Pages/Footer/Footer';
 import About from './Pages/About/About';
 import ContactForm from './Pages/Contact/Contact';
 import ParticleBackground from './components/particleBackground';
-import Skills from './Pages/Skills/Skills'
+import Skills from './Pages/Skills/Skills';
+
+
+
 
 
 export default function App() {
@@ -22,11 +25,13 @@ export default function App() {
   <ParticleBackground   />
 
 <div class=''>
+
   <Navbar />
 
   <Home />
 
   <About />
+
 
   <Skills />
 

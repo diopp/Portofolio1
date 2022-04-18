@@ -1,6 +1,7 @@
 import "./About.css";
 import Papa from "./Papa1.JPG";
 import 'animate.css';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 function About() {
   return (
@@ -16,7 +17,8 @@ function About() {
           </h2>
           <div class="items-center flex flex-wrap">
             <div class="w-full md:w-5/12 ml-auto mr-auto   pl-20">
-              <div class="mb-16 ml-9"></div>
+              
+              <AnimationOnScroll animateIn="animate__slideInLeft">
               <p class="text-slate-500 bio mt-5 ml-9  text-lg leading-relaxed">
               Hello World! I'm Papa Diop, <span class='text-lg'>Software Engineer </span>  based out of New York.
               I enjoy <span class='text-lg'>solving technical problems</span> and creating a smart <span class='text-lg'> user interface.</span></p>
@@ -27,6 +29,7 @@ a Certificate of <span class='text-lg'>Computer Software Engineering </span> Imm
 <p  class="text-slate-500 bio mt-5 ml-9  text-lg leading-relaxed">
 
 I am open to <span class='text-lg'> job opportunities</span> where I can <span class='text-lg'>contribute </span> , <span class='text-lg'>learn</span> and <span class='text-lg'>grow</span>. If you have a good opportunity that matches my skills and experience then don't hesitate to<span class='text-lg'> contact me.</span> </p>
+</AnimationOnScroll>
               <a
               href="#four"
                 type="button"
@@ -36,6 +39,7 @@ I am open to <span class='text-lg'> job opportunities</span> where I can <span c
               </a>
             </div>
             <div class="w-full md:w-5/12 mr-20 mr-auto px-1">
+            <AnimationOnScroll animateIn="animate__slideInRight">
               <div class="md:pr-12 ">
                 <img
                 id="image_About"
@@ -44,6 +48,7 @@ I am open to <span class='text-lg'> job opportunities</span> where I can <span c
                   src={Papa}
                 />
               </div>
+              </AnimationOnScroll>
             </div>
           </div>
         </div>
