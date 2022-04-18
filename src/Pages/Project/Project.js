@@ -51,7 +51,7 @@ export default function Project() {
             <span class="b inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Javascript</span>
             <span class="b inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Jquery</span>
             <span class="inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Node.js</span>
-            <a></a>
+            <br></br>
             <span class="b inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Bootstrap</span>
             <span class="b inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">MongoDB</span>
             <span class="b inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Mongoose</span>
@@ -170,7 +170,7 @@ export default function Project() {
 
         <div class="mx-auto flex px-5  md:flex-row flex-col items-center jobcard">
           <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center">
-            <figure class="visible">
+            <figure class="visible shoppa">
               <div class="">
                 <div class="  sm:px-6 ml-20">
                   <span class="  bug inline-block py-5 px-5 ml-5   text-xs font-bold tracking-widest mb-2">
