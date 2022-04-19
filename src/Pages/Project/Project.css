@@ -151,6 +151,18 @@ span:hover{
 
 
 @media (max-width: 640px) { 
+    #test3{
+        padding-left: 20px;
+    }
+
+    #badges{
+     
+        text-align: center;
+    }
+
+    #text{
+        text-align: center;
+    }
 
     .ml-20 {
         margin-left: 5rem;
@@ -238,9 +250,7 @@ figure{
     padding-bottom: 150%;
     margin-top: -170%;
 }
-.p2{
-    margin-left: 7rem;
-}
+
 
 .badge1{
     margin-left: 5.6rem;

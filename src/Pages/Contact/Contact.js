@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import 'animate.css';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
-
+import './Contact.css'
 
 const ContactForm = () => {
   const [status, setStatus] = useState("Submit");

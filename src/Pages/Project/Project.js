@@ -113,14 +113,14 @@ export default function Project() {
                   <h1 class=" title title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-100 ml-5">
                     Phoenix Roasters
                   </h1>
-                  <p class="p2 text-slate-500  text-base pb-6 ml-5">
+                  <p class="p2 text-slate-500  text-base pb-6 " id= 'text'>
                    A Django Python responsive web app with a shopping cart.  A group programming project with
                     <a target="_blank" href="https://github.com/elvisEspinozaN"> Elvis Espinoza</a>,&nbsp;<a target="_blank" href="https://github.com/longplu">Long Lu</a> and
                     &nbsp;<a target="_blank" href="https://github.com/Trinityfore">Trinity Fore</a>.
                   </p>
                 
 
-                  <div class="badge1 text-left pl-4 ">
+                  <div id='badges' class="badge1 text-left pl-4 ">
             <span class="b inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">HTML</span>
             <span class="b inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">CSS</span>
             <span class="b inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Javascript</span>
@@ -183,12 +183,12 @@ export default function Project() {
                   <h1 class=" title title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-100 ml-5">
                     Fruit Shop
                   </h1>
-                  <p class="text-slate-500  text-base pb-6 ml-5">
+                  <p id="text" class="text-slate-500  text-base pb-6 ml-5">
                   An eCommerce app with shopping cart built with MERN stack
 
 
                   </p>
-                  <div class="text-left pl-4 ">
+                  <div class="text-left pl-4 " id="badges">
             <span class="inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">HTML</span>
             <span class="inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">CSS</span>
             <span class="inline-block rounded-full bg-gray-200 px-2 py-1 text-xs font-bold mr-3">Javascript</span>
@@ -203,7 +203,7 @@ export default function Project() {
             
           
         </div>
-                  <div class="ml-2 mt-4">
+                  <div class="ml-2 mt-4 " id='test3'>
                     <a
                       type="button"
                       className=" demo ml-3 px-2   hover:text-white py-3 px-6   rounded"
