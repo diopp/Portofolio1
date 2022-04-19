@@ -34,6 +34,8 @@
 
 
 
+
+
 .mr-8 {
     margin-right: 0rem;
 }
@@ -43,6 +45,7 @@
 .navbar{
     background-color: #f8f8f8;
     z-index: 9999;
+    transition: 0.1s all ease-out;
 
   
 
@@ -274,20 +277,20 @@ input:checked + .slider:before {
   color: white;
   border:1px solid #ffffff;
   background-color: #6d83f2;
- 
   margin-right: auto;
 
 
-
-
- 
 }
+
+
 
 .mobile:hover {
   background-color: #6d83f2;
   color: #f8f8f8;
   
 }
+
+
 
 
 
