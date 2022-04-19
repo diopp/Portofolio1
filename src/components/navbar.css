@@ -32,6 +32,8 @@
     
 }
 
+
+
 .mr-8 {
     margin-right: 0rem;
 }
@@ -272,8 +274,12 @@ input:checked + .slider:before {
   color: white;
   border:1px solid #ffffff;
   background-color: #6d83f2;
-  z-index: 9999;
+ 
   margin-right: auto;
+
+
+
+
  
 }
 

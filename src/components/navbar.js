@@ -99,6 +99,7 @@ export default function Example() {
                     </Menu.Button>
                   </div>
                   <Transition
+                
                     as={Fragment}
                     enter="transition ease-out duration-100"
                     enterFrom="transform opacity-0 scale-95"
@@ -113,7 +114,7 @@ export default function Example() {
           </div>
 
           <Disclosure.Panel className="sm:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1">
+            <div className="px-2 pt-2 pb-3 space-y-1 z-0">
               {navigation.map((item) => (
                 <Disclosure.Button
                   key={item.name}

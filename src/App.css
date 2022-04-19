@@ -61,3 +61,11 @@ body{
 *{
   z-index: 9000;
 }
+
+@media (min-width: 640px)
+{
+  *{
+    z-index: 9999;
+  }
+
+}
