@@ -21,9 +21,13 @@ function classNames(...classes) {
 
 export default function Example() {
 
-  return (
+  
 
-    <Disclosure as="nav" className="navbar ">
+  return (
+    
+
+
+    <Disclosure as="nav" className="navbar sticky top-0 z-50  ">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">

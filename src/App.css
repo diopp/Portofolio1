@@ -1,8 +1,4 @@
 
-header {
-  position: relative;
-  
-}
 .App {
   text-align: center;
 }
@@ -58,10 +54,10 @@ header {
 body{
   overflow-x: hidden;
 
+
 }
 
 
 *{
-  z-index: 9999;
-
+  z-index: 9000;
 }

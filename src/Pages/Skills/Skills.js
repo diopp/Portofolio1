@@ -32,7 +32,7 @@ export default function Skills() {
                   <h2 className=" text-xl title-font font-medium mb-3">
 </h2>
 
-<AnimationOnScroll animateIn="animate__bounceInDown">
+<AnimationOnScroll animateIn="animate__fadeInUp" animateOut='animate__zoomOut'>
 <div id='skills_icon' class="grid grid-cols-6  gap-20 m-auto pr-auto">
 
 <div class='i'>

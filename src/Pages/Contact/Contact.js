@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import 'animate.css';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+
 
 const ContactForm = () => {
   const [status, setStatus] = useState("Submit");
@@ -11,7 +14,7 @@ const ContactForm = () => {
       email: email.value,
       message: message.value,
     };
-    let response = await fetch("http://localhost:5000/contact", {
+    let response = await fetch("https://portofolio0.herokuapp.com/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
@@ -23,6 +26,7 @@ const ContactForm = () => {
     alert(result.status);
   };
   return (
+    <AnimationOnScroll animateIn="animate__slideInUp" animateOut='animate__zoomOut'>
     <section id="four">
       <div class="mt-2 pt-20">
         <h2 class="text-center about  mb-20">
@@ -95,6 +99,7 @@ const ContactForm = () => {
         </div>
       </div>
     </section>
+    </AnimationOnScroll>
   );
 };
 

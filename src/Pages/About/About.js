@@ -7,15 +7,16 @@ function About() {
   return (
     
 
-    <section id="one" class="">
+    <section id="one" >
 
 
         <div class="mt-20 pt-20">
-          <h2 id='About' class=" text-center about pt-15">
+          <h2 id='About' class=" text-center about pt-1 mb-15">
+
             <span class="number1">01. </span>
             About Me{" "}
           </h2>
-          <div class="items-center flex flex-wrap">
+          <div class="items-center flex flex-wrap pt-16">
             <div class="w-full md:w-5/12 ml-auto mr-auto   pl-20">
               
               <AnimationOnScroll animateIn="animate__slideInLeft">
@@ -31,9 +32,10 @@ a Certificate of <span class='text-lg'>Computer Software Engineering </span> Imm
 I am open to <span class='text-lg'> job opportunities</span> where I can <span class='text-lg'>contribute </span> , <span class='text-lg'>learn</span> and <span class='text-lg'>grow</span>. If you have a good opportunity that matches my skills and experience then don't hesitate to<span class='text-lg'> contact me.</span> </p>
 </AnimationOnScroll>
               <a
+              id="get"
               href="#four"
                 type="button"
-                className="contact mt-4 ml-9 bg-transparent    hover:text-white py-1.5 px-5  rounded"
+                className=" duration-400 hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150 contact mt-4 ml-9  py-1.5 px-5  rounded"
               >
                 Get in Touch
               </a>

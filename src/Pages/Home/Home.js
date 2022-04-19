@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { BsLinkedin } from "react-icons/bs";
 import { AiFillGithub } from "react-icons/ai";
-import {BiDownArrowAlt} from "react-icons/bi";
+import {BsChevronDoubleDown} from "react-icons/bs";
 import Papa from "./Papa.JPG";
 import "./Home.css";
 import "animate.css";
@@ -10,7 +10,7 @@ function Home() {
 
   return (
 
- <section class='home'>
+ <section id='home' class='home'>
     <div
       className="home pb-5 overflow-y-hidden"
       id="home"
@@ -29,18 +29,18 @@ function Home() {
             >
               Software Engineer
             </h5>
-            <p className="mt-5 sm:mt-10 lg:w-10/12 text-slate-500 font-normal text-center text-sm sm:text-lg">
+            <p className="mt-5 sm:mt-10 lg:w-10/12 text-slate-500 font-normal text-center text-sm sm:text-lg animate__animated animate__fadeInUp">
               I build things on the Internet. This is my site, where I share
               whatever side projects I've been working on.{" "}
             </p>
           </div>
           <div className="flex justify-center items-center">
-            <div class="flex justify-center mb-9 ml-20">
-              <a target="_blank" href="https://www.linkedin.com/in/papa-diop1/" class="mr-9 linkedin">
+            <div class="flex justify-center mb-8 gap-10 ">
+              <a target="_blank" href="https://www.linkedin.com/in/papa-diop1/" class=" linkedin">
                 <BsLinkedin size={35} />
               </a>
 
-              <a target="_blank" href="https://github.com/diopp" class="mr-9  github ">
+              <a target="_blank" href="https://github.com/diopp" class="  github ">
                 <AiFillGithub size={45}  />
               </a>
 
@@ -52,8 +52,8 @@ function Home() {
             
           </div>
 
-          <a  href="#one" class="mr- ml-12 mt-12  arrow ">
-                <BiDownArrowAlt size={45}  />
+          <a  href="#one" class="justify-center mt-12  arrow ">
+                <BsChevronDoubleDown size={45}  />
               </a>
           
          
