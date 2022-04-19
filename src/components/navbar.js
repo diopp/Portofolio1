@@ -27,7 +27,7 @@ export default function Example() {
     
 
 
-    <Disclosure as="nav" className="navbar z-10">
+    <Disclosure as="nav" className="navbar z-50 sticky">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8  ">
