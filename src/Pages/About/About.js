@@ -11,7 +11,7 @@ function About() {
 
 
         <div class="mt-20 pt-20">
-          <h2 id='About' class=" text-center about pt-1 mb-15">
+          <h2 id='About' class=" text-center sm:pt-3 about pt-1 mb-15">
 
             <span class="number1">01. </span>
             About Me{" "}

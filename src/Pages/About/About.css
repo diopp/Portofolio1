@@ -109,10 +109,7 @@ h2 {
       
     }
 
-    #About{
-        margin-top: -200px;
-        
-    }
+ 
 
 }
 
@@ -134,3 +131,11 @@ h2 {
 
 
 
+@media (max-width: 640px) { 
+
+    #About{
+        margin-top: -250px;
+        
+    }
+
+}

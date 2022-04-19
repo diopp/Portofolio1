@@ -10,13 +10,13 @@ export default function Skills() {
           
 
 <section id='two'>
-      <div>
+      <div id='sk'>
       {/* component */}
       {/* This is an example component */}
       <link href="https://unpkg.com/pattern.css" rel="stylesheet" />
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
          <div class="mt-20 pt-20">
-          <h2 id='Skills' class="text-center about pt-15">
+          <h2 id='Skills ' class="text-center about pt-15">
             <span class="number2">02. </span>
             Skills{" "}
           </h2>
