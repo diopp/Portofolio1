@@ -99,12 +99,16 @@ p{
 
 @media (max-width: 640px) { 
 
+#skills0{
+    margin-top: -130px;
+}
+
 #Skills{
-    margin-top: -280px;
+    margin-top: -250px;
 }
 
 #skills_icon{
-    margin-top: -200px;
+    margin-top: -10px;
     margin-left: -10%;
 }
 
@@ -126,9 +130,6 @@ i{
     margin-bottom: 70px;
 }
 
-@media (max-width: 640px) {
 
 
 
-
-}
